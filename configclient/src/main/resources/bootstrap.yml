@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      name: configclient
+      label: master
+      discovery:
+        enabled: true
+        service-id: configserver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#      spring.cloud.config.name : 当前服务注册在Eureka Server 上的名称，与远程仓库配置文件名对应
+#                           label：当前repository的分支
+#                         .discovery.enable:是否开启Config服务发现支持。
+#                         service-id:配置中心在eureka server上注册的名称
