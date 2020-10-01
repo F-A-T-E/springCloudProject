@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/github-lvpf/springCloud.git
           searchPaths: config
-          username: root
-          password: root
+          username: 1359706026@qq.com
+          password: 18366313221aa.
       label: master
 eureka:
   client:
