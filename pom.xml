@@ -22,6 +22,9 @@
         <module>configserver</module>
         <module>untitled</module>
         <module>configclient</module>
+        <module>zipkin</module>
+        <module>untitled1</module>
+        <module>zipkinclient</module>
     </modules>
 
     <parent>

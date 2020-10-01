@@ -9,7 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>untitled</artifactId>
+    <artifactId>zipkin</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+            <version>2.9.4</version>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+            <version>2.9.4</version>
+        </dependency>
+
+
+    </dependencies>
 
 </project>
